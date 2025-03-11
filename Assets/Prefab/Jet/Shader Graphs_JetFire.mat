@@ -8,10 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_JetFire
-  m_Shader: {fileID: -6465566751694194690, guid: 852c97cd9519b244fa04fb4997ccb5ce, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 852c97cd9519b244fa04fb4997ccb5ce,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -46,7 +48,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
@@ -58,12 +60,10 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
-    - _DstBlend2: 10
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _OpaqueCullMode: 2
-    - _PerPixelSorting: 0
     - _RenderQueueType: 4
     - _SrcBlend: 1
     - _StencilRef: 0
@@ -87,11 +87,12 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
+    - _Color: {r: 0.7490196, g: 0.2745098, b: 0, a: 0}
+    - _Color_1: {r: 29.790852, g: 3.7941182, b: 3.7941182, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!114 &6827068905257880770
+--- !u!114 &8739349792175179889
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

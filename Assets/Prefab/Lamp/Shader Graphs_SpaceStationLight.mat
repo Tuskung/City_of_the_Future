@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1809841135527766679
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +23,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Holo
-  m_Shader: {fileID: -6465566751694194690, guid: 3908448557e121248afd24837bbe4d40,
+  m_Name: Shader Graphs_SpaceStationLight
+  m_Shader: {fileID: -6465566751694194690, guid: fe98c3b2083dd8c4e9acf2e9a4903bdb,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -33,11 +49,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _HoloTex:
-        m_Texture: {fileID: 2800000, guid: cc30863789d576f4e8f74fb777996c26, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ef56ccdf36904259bdbe43c90ac44577_Texture_1_Texture2D:
+    - _SampleTexture2D_90f5b824827242dcb9e7155b2102dcb7_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 691cd66c4bbf4014fa7c4e79e2676e41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -71,6 +83,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
+    - _Opacity: 0.7
     - _OpaqueCullMode: 2
     - _RenderQueueType: 4
     - _SrcBlend: 1
@@ -95,26 +108,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.2506446, g: 0.47059187, b: 0.8710928, a: 0}
-    - _Color2: {r: 0.23472987, g: 0.06888574, b: 0.33962274, a: 0}
+    - _Color: {r: 14.056217, g: 85.44608, b: 102.75576, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Speed: {r: 0.13, g: 0, b: 0, a: 0}
-    - _Tiling: {r: 10, g: 2, b: 0, a: 0}
+    - _Vector2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &8802495525929264945
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 13
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 
